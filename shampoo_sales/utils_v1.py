@@ -15,6 +15,7 @@ from numpy import concatenate
 
 # date-time parsing function for loading the dataset
 def parser(x):
+	# print(x)
 	return datetime.strptime('190'+x, '%Y-%m')
 
 # frame a sequence as a supervised learning problem
